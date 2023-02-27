@@ -31,6 +31,6 @@ public class CalculatorTest {
     @Tag("Tag2")
     public void testAddWithNegative(){
         Calculator calc = createCalc();
-        Assertions.assertEquals(-7, calc.Add(-2,-3));
+        Assertions.assertEquals(-5, calc.Add(-2,-3));
     }
 }
